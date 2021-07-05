@@ -1,0 +1,7 @@
+version: "3"
+services:
+  remote-interpreter:
+    build:
+      context: "remote-interpreter"
+    image: "remote-interpreter"
+    command: ["/bin/bash"]
